@@ -51,7 +51,6 @@ export function ColorPicker({
       setColor(localColor);
     }
   };
-
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild onMouseDown={handleMouseDown} onMouseUp={handleMouseUp}>
