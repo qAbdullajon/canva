@@ -1,9 +1,11 @@
-import Editor from "./components/EditorCanvas";
+import Whiteboard from "./components/Whiteboard";
 
 const App = () => {
-  return <div>
-    <Editor />
-  </div>;
+  return (
+    <div>
+      <Whiteboard />
+    </div>
+  );
 };
 
 export default App;
